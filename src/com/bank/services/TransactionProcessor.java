@@ -4,8 +4,8 @@ import com.bank.core.*;
 
 public class TransactionProcessor {
     public static void main(String[] args) {
-        BankAccount savings = new SavingsAccount("SA123", 1000);
-        BankAccount current = new CurrentAccount("CA456", 500);
+        BankAccount savings = new SavingsAccount("SA123", 1000); //Initial bank Savings account numbers and balance
+        BankAccount current = new CurrentAccount("CA456", 500); //Initial bank Current account numbers and balance
         LoanAccount loan = new LoanAccount(0.05);
 
         // Deposits
